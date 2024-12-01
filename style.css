@@ -1,0 +1,104 @@
+	body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+        
+		
+	#container {
+        width: 80%;
+        height: 96vh;
+        margin: 10px auto;
+        border: 2px solid #ccc;
+        position: relative;
+        overflow: hidden;    
+        
+	}
+        
+	#canvas {
+        width: 100%;
+        height: 60vh;
+        margin-top: 20px;
+        border: 2px solid #ccc;
+        position: relative;
+        overflow: hidden;
+        background-color: #ccc;
+    }
+	
+    .text-box {
+        position: absolute;
+        cursor: move;
+        border: 1px dashed #999;
+        padding: 5px;
+        background-color: white;
+    }
+	
+    #undo-redo-section {
+        display: flex;
+        margin: 20px auto;
+        justify-content: center;
+    }
+	
+    #undo-redo-section i {
+        margin: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+	
+    #undo-redo-section i:hover {
+        transform: scale(1.5);
+    }
+	
+    #controls {
+        padding: 10px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+		justify-content: center;
+    }
+		
+	#font-size-change-section{
+		margin: 0px 20px 0px 20px;
+	}
+		
+    #font-size-change-section label {
+        margin: 10px;
+	}
+    
+	#font-size-change-section select, #fontSize {
+        padding: 8px;
+        font-size: 14px;
+        border: none;
+        border-radius: 20px;
+		padding: 8px 20px 8px 20px;
+		box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    }
+	
+    #style {
+            
+		display: flex;
+        background-color: #fff;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        border-radius: 20px;
+		margin: 0px 20px 0px 20px;
+    }
+	
+    #style i {
+        margin: 10px 20px;
+        cursor: pointer;
+    }
+		
+    #style i:hover {
+        transform: scale(1.5);
+    }
+		
+    #addText {
+        padding: 8px 20px;
+        border-radius: 20px;
+        border: none;
+		cursor: pointer;
+		margin: 0px 20px 0px 20px;
+    }
+	
+    #addText:hover {
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    }
